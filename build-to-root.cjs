@@ -30,6 +30,6 @@ async function copyFiles(sourceDir, destDir) {
 
 // Example usage
 const sourceDir = path.resolve(__dirname, 'dist'); // Replace 'source' with your source directory
-const destDir = path.resolve(__dirname, '..'); // Replace 'destination' with your destination directory
+const destDir = path.resolve(__dirname, '.'); // Replace 'destination' with your destination directory
 
 copyFiles(sourceDir, destDir);
